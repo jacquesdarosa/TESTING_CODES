@@ -1,0 +1,104 @@
+city= "london"
+>>> population= 900000
+>>> str1= f"City: {city.capitalize()} ({city,isalpha()})"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'isalpha' is not defined
+>>> str1= f"City. {city.capitalize()} (city.isalpha()})"
+  File "<stdin>", line 1
+SyntaxError: f-string: single '}' is not allowed
+>>> Stri1= f"City: {city.capitalize()} ({city.isalpha()})"
+>>> str2= f" Population: {population}"
+>>> print(city)
+london
+>>> print (f"City: {city.title()} + (True)")
+City: London + (True)
+>>> print(f"Population: {population}")
+Population: 900000
+>>> Cidade= Berlin
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Berlin' is not defined
+>>> Cidade= "Berlin"
+>>> "
+  File "<stdin>", line 1
+    "
+    ^
+SyntaxError: EOL while scanning string literal
+>>> Cidade= 'Berlin'
+>>> Popul= 3645000
+>>> print(Cidade + : + Popul)
+  File "<stdin>", line 1
+    print(Cidade + : + Popul)
+                   ^
+SyntaxError: invalid syntax
+>>> print(Cidade,:, Popul)
+  File "<stdin>", line 1
+    print(Cidade,:, Popul)
+                 ^
+SyntaxError: invalid syntax
+>>> print("Cidade: ", Popul())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>> print(Cidade: + Popul)
+  File "<stdin>", line 1
+    print(Cidade: + Popul)
+                ^
+SyntaxError: invalid syntax
+>>> print(Cidade: ,Popul())
+  File "<stdin>", line 1
+    print(Cidade: ,Popul())
+                ^
+SyntaxError: invalid syntax
+>>> print(Cidade: +str(Popul))
+  File "<stdin>", line 1
+    print(Cidade: +str(Popul))
+                ^
+SyntaxError: invalid syntax
+>>> print (Cidade, ':', Population)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Population' is not defined
+>>> print(Cidade, ':", Popul)
+  File "<stdin>", line 1
+    print(Cidade, ':", Popul)
+                            ^
+SyntaxError: EOL while scanning string literal
+>>> print(Cidade, ':', (Popul))
+Berlin : 3645000
+>>> print( '{0}:'.format(Cidade))
+Berlin:
+>>> print('{0}:'.format(Cidade) + (Popul))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> print('{0}:'.format(Cidade, Popul))
+Berlin:
+>>> print(Cidade.format(':', (Popul))
+... 
+... My string= "{}, {}, {}"
+  File "<stdin>", line 3
+    My string= "{}, {}, {}"
+    ^
+SyntaxError: invalid syntax
+>>> my_string= "{}, {}, {}"
+>>> print(my_string.format("Cidade", ":", "3645000"))
+Cidade, :, 3645000
+>>> print(my_string.fornat("Cidade:", "3645000))
+  File "<stdin>", line 1
+    print(my_string.fornat("Cidade:", "3645000))
+                                               ^
+SyntaxError: EOL while scanning string literal
+>>> my_string2= "{}", {}"
+  File "<stdin>", line 1
+    my_string2= "{}", {}"
+                        ^
+SyntaxError: EOL while scanning string literal
+>>> my_string3= "{}, {}"
+>>> print(my_string3.format("Cidade:", "3645000")
+... print(my_string3.format("Cidade:", "3645000"))
+  File "<stdin>", line 2
+    print(my_string3.format("Cidade:", "3645000"))
+    ^
+SyntaxError: invalid syntax

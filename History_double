@@ -1,0 +1,380 @@
+ser@user-thinkpad-l15:~$ history
+    1  chmod 755 ~/Desktop/computer-setup-master/install.sh && ~/Desktop/computer-setup-master/install.sh
+    2  sudo chmod 755 ~/Desktop/computer-setup-master/install.sh && ~/Desktop/computer-setup-master/install.sh
+    3  exit
+    4  passwd
+    5  sudo passwd dci-admin
+    6  sudo dpkg -google-chrome_stable_current_amd64.deb
+    7  sudo touch/etc/default/google-chrome
+    8  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    9  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   10  sudo apt -f install
+   11  ls
+   12  ls/var
+   13  ls /var
+   14  pwd
+   15  ls ..
+   16  cd ..
+   17  cd ~ Downloads
+   18  here are the steps to upgrade google chrome:
+   19  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+   20  sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+   21  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+   22  https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   23  sudo dpkg -i google-chrome*.deb
+   24  sudo apt-get install -f
+   25  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+   26  sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+   27  sudo apt-get update 
+   28  sudo apt-get install google-chrome-stable
+   29  ls
+   30  cd Desktop
+   31  mkdir DCI_Code
+   32  cd DCI_Code
+   33  ls
+   34  mkdir test
+   35  pwd
+   36  touch plan.text
+   37  ls
+   38  ls -- help
+   39  ls --help
+   40  ls
+   41  rm -r test
+   42  ls
+   43  cd Desktop
+   44  sudo apt update
+   45  sudo search neofetch
+   46  sudo apt update
+   47  sudo apt search neofetch
+   48  sudo apt install neofetch
+   49  neofetch
+   50  sudo apt remove neofetch
+   51  neofetch
+   52  sudo apt autoremove
+   53  ls
+   54  cd..
+   55  cd ..
+   56  git
+   57  mkdir git-intro
+   58  cd git-intro
+   59  git init
+   60  ls - a
+   61  ls -a
+   62  touch hello.txt
+   63  lsb_release -a
+   64  rm -R test
+   65  rm -Rtest
+   66  rm -d test
+   67  rm - d test-dir
+   68  rmdir --help
+   69  rm -i test
+   70  rn -d dirtest
+   71  rmdir dirtest
+   72  rm -r dirtest
+   73  rm test
+   74  rm -R plan.text
+   75  rm -R DCI_CODE
+   76  rm -d DCI_Code
+   77  rmdir DCI_Code
+   78  rm - r DCI_Code
+   79  unlink plan.text
+   80  rm /home/user/Desktop/DCI_Code/test/plan.text
+   81  rm /home/user/Desktop/DCI_Code
+   82  y
+   83  rm - d DCI_Code
+   84  rmdir DCI_Code
+   85  unlink DCI_Code
+   86  rm DCI_Code test plan.text
+   87  ls
+   88  rm -rf /path/to/DCI_Code
+   89  ls
+   90  rm -rf /home/user/Desktop/DCI_Code
+   91  rm-rf/home/user/Desktop/Jack stuff/Python/Pythoncourse.text
+   92  rm - rf /home/user/Desktop/Jack stuff/Python/pythoncourse.txt
+   93  rm - rf /home/user/Desktop/Jack stuff/{*pythoncourse.txt*}
+   94  rm -rf /home/user/Desktop/Jack stuff/*
+   95  rm-rf /home/user/Desktop/Jack stuff
+   96  rm -rf /home/user/Desktop/Jack stuff
+   97  rm -rf /home/user/Desktop/Jackstuff
+   98  rm -rf /home/user/Desktop/Jack_Stuff
+   99  Cheese
+  100  Run Cheese
+  101  #
+  102  py
+  103  python3
+  104  sudo apt-get git python-pip make build-essential libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev curl sudo pip install virtualenvwrapper
+  105  sudo apt-get install git python3-pip make build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev curl 
+  106  sudo pip install virtualenvwrapper
+  107  git clone https//github.com/yyuu/pyenv.git ~/.pyenv
+  108  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+  109  git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+  110  git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/ .pyenv/plugins/pyenv-virtualenvwrapper
+  111  echo 'export PYENV_ROOT= "$HOME/ .pyenv"'git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git ~./.pyenv/plugins/pyenv-virtualenvwrapper
+  112  git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
+  113  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >>~/.bashrc 
+  114  echo 'eval "$(pyenv init -)"' >>~/.bashrc 
+  115  echo 'pyenv virtualenvwrapper' >> ~/.bashrc 
+  116  test = """test"""
+  117  'clear'
+  118  test= " i am text"
+  119  test = "i am text"
+  120  test
+  121  test = "xxcc"
+  122  import sys
+  123  python -V
+  124  python3
+  125  pyenv update
+  126  sudo apt-get install git python3-pip make build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev curl 
+  127  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+  128  $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+  129  python3
+  130  python -V
+  131  python --version
+  132  Python -V
+  133  python3
+  134  python3 -version
+  135  Python3 -version
+  136  python --version
+  137  python3 -V
+  138  python3
+  139  $ sudo apt-get install curl
+  140  sudo apt-get install curl
+  141  export PATH="~/.pyenv/bin:$PATH"
+  142  eval "$(pyenv init -)"
+  143  eval "$(pyenv virtualenv-init -)"
+  144  source ~/.bashrc
+  145  sudo -H pip install -U pipenv
+  146  sudo pip install pipenv
+  147  pyenv versions
+  148  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+  149  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+  150  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile 
+  151  exec "$SHELL"
+  152  python3
+  153  printenv > /tmp/tmp-16868bMTnsdhphhk5txt
+  154  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  155  python3
+  156  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  157  First three characters:
+  158  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  159  /bin/python3 "/home/user/Documents/Exercises_python/Task 7.py"
+  160  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  161  /bin/python3 "/home/user/Documents/Exercises_python/Task 7.py"
+  162  -r
+  163  -/ .bash_history
+  164  ~-/ .bash_history
+  165  ~/ .bash_history
+  166  history
+  167  sudo apt install flatpak
+  168  sudo apt install gnome-software-plugin-flatpak
+  169  flatpak remote-add 
+  170  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  171  curl -o- https://raw.githubusercontent.com/ZA-PT/Obsidian/canary/configure_env/ubuntu/configure_env.sh | bash
+  172  y
+  173  Y
+  174  n
+  175  Abort
+  176  n Abort
+  177  [n]
+  178  [n] Abort
+  179  n
+  180  Abort.
+  181  import readline
+  182  for i in range(readline.get_current_history_length()):
+  183  python3
+  184  154
+  185  history
+user@user-thinkpad-l15:~$ /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  File "/home/user/Documents/Exercises_python/Exercise 1", line 53
+    print("First three characters:"+ Text[:3].upper())
+    ^
+SyntaxError: invalid syntax
+user@user-thinkpad-l15:~$ history
+    1  chmod 755 ~/Desktop/computer-setup-master/install.sh && ~/Desktop/computer-setup-master/install.sh
+    2  sudo chmod 755 ~/Desktop/computer-setup-master/install.sh && ~/Desktop/computer-setup-master/install.sh
+    3  exit
+    4  passwd
+    5  sudo passwd dci-admin
+    6  sudo dpkg -google-chrome_stable_current_amd64.deb
+    7  sudo touch/etc/default/google-chrome
+    8  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    9  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   10  sudo apt -f install
+   11  ls
+   12  ls/var
+   13  ls /var
+   14  pwd
+   15  ls ..
+   16  cd ..
+   17  cd ~ Downloads
+   18  here are the steps to upgrade google chrome:
+   19  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+   20  sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+   21  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+   22  https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   23  sudo dpkg -i google-chrome*.deb
+   24  sudo apt-get install -f
+   25  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+   26  sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+   27  sudo apt-get update 
+   28  sudo apt-get install google-chrome-stable
+   29  ls
+   30  cd Desktop
+   31  mkdir DCI_Code
+   32  cd DCI_Code
+   33  ls
+   34  mkdir test
+   35  pwd
+   36  touch plan.text
+   37  ls
+   38  ls -- help
+   39  ls --help
+   40  ls
+   41  rm -r test
+   42  ls
+   43  cd Desktop
+   44  sudo apt update
+   45  sudo search neofetch
+   46  sudo apt update
+   47  sudo apt search neofetch
+   48  sudo apt install neofetch
+   49  neofetch
+   50  sudo apt remove neofetch
+   51  neofetch
+   52  sudo apt autoremove
+   53  ls
+   54  cd..
+   55  cd ..
+   56  git
+   57  mkdir git-intro
+   58  cd git-intro
+   59  git init
+   60  ls - a
+   61  ls -a
+   62  touch hello.txt
+   63  lsb_release -a
+   64  rm -R test
+   65  rm -Rtest
+   66  rm -d test
+   67  rm - d test-dir
+   68  rmdir --help
+   69  rm -i test
+   70  rn -d dirtest
+   71  rmdir dirtest
+   72  rm -r dirtest
+   73  rm test
+   74  rm -R plan.text
+   75  rm -R DCI_CODE
+   76  rm -d DCI_Code
+   77  rmdir DCI_Code
+   78  rm - r DCI_Code
+   79  unlink plan.text
+   80  rm /home/user/Desktop/DCI_Code/test/plan.text
+   81  rm /home/user/Desktop/DCI_Code
+   82  y
+   83  rm - d DCI_Code
+   84  rmdir DCI_Code
+   85  unlink DCI_Code
+   86  rm DCI_Code test plan.text
+   87  ls
+   88  rm -rf /path/to/DCI_Code
+   89  ls
+   90  rm -rf /home/user/Desktop/DCI_Code
+   91  rm-rf/home/user/Desktop/Jack stuff/Python/Pythoncourse.text
+   92  rm - rf /home/user/Desktop/Jack stuff/Python/pythoncourse.txt
+   93  rm - rf /home/user/Desktop/Jack stuff/{*pythoncourse.txt*}
+   94  rm -rf /home/user/Desktop/Jack stuff/*
+   95  rm-rf /home/user/Desktop/Jack stuff
+   96  rm -rf /home/user/Desktop/Jack stuff
+   97  rm -rf /home/user/Desktop/Jackstuff
+   98  rm -rf /home/user/Desktop/Jack_Stuff
+   99  Cheese
+  100  Run Cheese
+  101  #
+  102  py
+  103  python3
+  104  sudo apt-get git python-pip make build-essential libssl-dev zlib1g-dev libbz2-dev libsqlite3-dev curl sudo pip install virtualenvwrapper
+  105  sudo apt-get install git python3-pip make build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev curl 
+  106  sudo pip install virtualenvwrapper
+  107  git clone https//github.com/yyuu/pyenv.git ~/.pyenv
+  108  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+  109  git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+  110  git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/ .pyenv/plugins/pyenv-virtualenvwrapper
+  111  echo 'export PYENV_ROOT= "$HOME/ .pyenv"'git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git ~./.pyenv/plugins/pyenv-virtualenvwrapper
+  112  git clone https://github.com/yyuu/pyenv-virtualenvwrapper.git ~/.pyenv/plugins/pyenv-virtualenvwrapper
+  113  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >>~/.bashrc 
+  114  echo 'eval "$(pyenv init -)"' >>~/.bashrc 
+  115  echo 'pyenv virtualenvwrapper' >> ~/.bashrc 
+  116  test = """test"""
+  117  'clear'
+  118  test= " i am text"
+  119  test = "i am text"
+  120  test
+  121  test = "xxcc"
+  122  import sys
+  123  python -V
+  124  python3
+  125  pyenv update
+  126  sudo apt-get install git python3-pip make build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev curl 
+  127  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+  128  $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+  129  python3
+  130  python -V
+  131  python --version
+  132  Python -V
+  133  python3
+  134  python3 -version
+  135  Python3 -version
+  136  python --version
+  137  python3 -V
+  138  python3
+  139  $ sudo apt-get install curl
+  140  sudo apt-get install curl
+  141  export PATH="~/.pyenv/bin:$PATH"
+  142  eval "$(pyenv init -)"
+  143  eval "$(pyenv virtualenv-init -)"
+  144  source ~/.bashrc
+  145  sudo -H pip install -U pipenv
+  146  sudo pip install pipenv
+  147  pyenv versions
+  148  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+  149  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+  150  echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile 
+  151  exec "$SHELL"
+  152  python3
+  153  printenv > /tmp/tmp-16868bMTnsdhphhk5txt
+  154  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  155  python3
+  156  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  157  First three characters:
+  158  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  159  /bin/python3 "/home/user/Documents/Exercises_python/Task 7.py"
+  160  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  161  /bin/python3 "/home/user/Documents/Exercises_python/Task 7.py"
+  162  -r
+  163  -/ .bash_history
+  164  ~-/ .bash_history
+  165  ~/ .bash_history
+  166  history
+  167  sudo apt install flatpak
+  168  sudo apt install gnome-software-plugin-flatpak
+  169  flatpak remote-add 
+  170  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  171  curl -o- https://raw.githubusercontent.com/ZA-PT/Obsidian/canary/configure_env/ubuntu/configure_env.sh | bash
+  172  y
+  173  Y
+  174  n
+  175  Abort
+  176  n Abort
+  177  [n]
+  178  [n] Abort
+  179  n
+  180  Abort.
+  181  import readline
+  182  for i in range(readline.get_current_history_length()):
+  183  python3
+  184  154
+  185  history
+  186  /bin/python3 "/home/user/Documents/Exercises_python/Exercise 1"
+  187  history
+

@@ -38,7 +38,26 @@ word= text1.replace('capital', 'Capital of Germany')
 print(word)
 
 # Basics 2 
+#task 1
 Text= 'Berlin is a world city of culture, politics, media and science.'
 print(len(Text))
 
+#task 2
+print(Text[0],Text[-1])
 
+Text[0:3]
+print(Text[0:3].upper())
+
+
+print("first three characters"
+print("First three characters:"+ Text[:3].upper())
+
+Text1= 'Jacques'
+Text2= 'da_Rosa'
+print(Text)
+
+
+
+text4= "Jacques"
+text5= "da_Rosa"
+print("Firstname: " +text4 + "\n" + "Surname: " +text5)

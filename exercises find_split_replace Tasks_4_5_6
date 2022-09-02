@@ -1,0 +1,30 @@
+>> txt = "Hello, welcome to my world."
+>>> x= txt.find("welcome")
+>>> print(x)
+7
+>>> text= 'Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital.'
+  File "<stdin>", line 1
+    text= 'Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital.'
+                                                                                                     ^
+SyntaxError: invalid syntax
+>>> text= "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital."
+>>> z= text.find("capital")
+>>> print(z)
+92
+>>> text1= "capital"
+>>> y= text1.find("a", 0, 5)
+>>> print(y)
+1
+>>> w= txt.find("e", 5, 10)
+>>> print(w)
+8
+>>> Text2= "Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau"
+>>> print(Text2.split())
+['Berlin', 'straddles', 'the', 'banks', 'of', 'the', 'Spree,', 'which', 'flows', 'into', 'the', 'Havel', '(a', 'tributary', 'of', 'the', 'Elbe)', 'in', 'the', 'western', 'borough', 'of', 'Spandau']
+>>> Text3= "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital"
+>>> Word= Text3.replace('capital', 'Capital of Germany')
+>>> print(Word)
+Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's Capital of Germany
+>>> 
+
+
