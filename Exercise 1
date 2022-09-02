@@ -1,0 +1,44 @@
+# task 3
+city = "London"
+population = "9000000"
+city = "london"
+population = 9000000
+str1= f"City: {city.capitalize()} ({city.isalpha()})"
+str2= f"Population: {population}"
+
+city = "Paris"
+print (f"City: {city.title()} + (True)")
+print(f"Population: {population}")
+
+city = "City: " + city.capitalize() + "(True)"
+print(city)
+
+city= "london"
+population= 9000000
+Tr= "True"
+if city=="london" :
+    print("City: ", city.capitalize(), "("+Tr+")")
+    print("Population: ", population)
+
+
+# Task 4
+text= "Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital"
+wordfind= text.find('capital')
+print("capital:", wordfind)
+print(text.index("capital"))
+
+
+# Task 5 text2.split
+Text2= "Berlin straddles the banks of the Spree, which flows into the Havel (a tributary of the Elbe) in the western borough of Spandau"
+print(Text2.split())
+
+#Task 6
+text1="Berlin is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital"
+word= text1.replace('capital', 'Capital of Germany')
+print(word)
+
+# Basics 2 
+Text= 'Berlin is a world city of culture, politics, media and science.'
+print(len(Text))
+
+
