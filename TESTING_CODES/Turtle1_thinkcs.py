@@ -14,7 +14,7 @@ wn.bgcolor("lightgreen")
 tess = turtle.Turtle()      # Create tess and set some attributes
 tess.pensize(3)
 
-size = 20                   # Size of the smallest square
+size = 30                   # Size of the smallest square
 for i in range(15):
     draw_multicolor_square(tess, size)
     size = size + 10        # Increase the size for next time
